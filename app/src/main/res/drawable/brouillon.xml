@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportHeight="100"
+    android:viewportWidth="100">
+
+    <!-- draw a path -->
+    <path
+            android:fillColor="#000"
+            android:pathData="M50 33c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163
+                            16-16-7.163-16-16-16zM50 61c-6.627
+                            0-12-5.373-12-12s5.373-12 12-12c6.627
+                            0 12 5.373 12 12s-5.373 12-12 12z"
+            android:strokeColor="#000" />
+    <group
+        android:name="rotationGroup"
+        android:pivotX="50"
+        android:pivotY="50">
+        <!-- diagonal line -->
+        <path
+            android:strokeWidth="4"
+            android:pathData="M 74 26 l -15 15"
+            android:strokeColor="#000" />
+
+          <!-- male sign -->
+       <path
+           android:name="morphingLineOne"
+           android:strokeWidth="4"
+           android:pathData="M 62 25 l 15 0"
+           android:strokeColor="#000" />
+       <path
+           android:name="morphingLineTwo"
+           android:strokeWidth="4"
+           android:pathData="M 75 23 l 0 15"
+           android:strokeColor="#000" />
+
+        <!-- female sign -->
+     <!--   <path
+            android:strokeWidth="1"
+            android:pathData="M 59 25 l 8 8"
+            android:strokeColor="#fff" />
+        <path
+            android:strokeWidth="1"
+            android:pathData="M 67 33 l 8 8"
+            android:strokeColor="#fff" />-->
+
+     <!--   <path
+            android:name="morphingLine"
+            android:strokeWidth="4"
+            android:pathData="M 60 25 l 15 15 l 0 0"
+            android:strokeColor="#000" />-->
+
+        <!-- broken line -->
+       <!-- <path
+            android:name="morphingLine"
+            android:strokeWidth="4"
+            android:pathData="M 60 25 l 15 0 l 0 15"
+            android:strokeColor="#000" />-->
+
+    </group>
+    <!-- horizontal axis -->
+    <path
+        android:strokeWidth="1"
+        android:pathData="M 0 50 l 100 0"
+        android:strokeColor="#000" />
+    <!-- vertical axis  -->
+    <path
+        android:strokeWidth="1"
+        android:pathData="M 50 0 l 0 100"
+        android:strokeColor="#000" />
+<!--    <path
+        android:strokeWidth="1"
+        android:pathData="M 38 0 l 50 50"
+        android:strokeColor="#000" />-->
+    <!-- diagonal axis -->
+<!--    <path
+        android:strokeWidth="1"
+        android:pathData="M 100 0 l -100 100"
+        android:strokeColor="#000" />-->
+   <!-- <group>
+        &lt;!&ndash; vertical line &ndash;&gt;
+        <path
+            android:strokeWidth="4"
+            android:pathData="M 50 64 l 0 24"
+            android:strokeColor="#000" />
+    </group>
+    <group>
+        &lt;!&ndash; horizontal line &ndash;&gt;
+        <path
+            android:strokeWidth="4"
+            android:pathData="M 39 77 l 22 0"
+            android:strokeColor="#000" />
+    </group>-->
+</vector>

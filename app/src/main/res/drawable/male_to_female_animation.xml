@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/sex_sign" >
+    <target
+        android:name="rotationGroup"
+        android:animation="@anim/male_to_female_rotation" />
+    <target
+        android:name="morphingLineOne"
+        android:animation="@anim/male_to_female_line_one" />
+    <target
+        android:name="morphingLineTwo"
+        android:animation="@anim/male_to_female_line_two" />
+</animated-vector>
